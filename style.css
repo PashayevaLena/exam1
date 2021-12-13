@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --tit: 'Josefin Sans', sans-serif;
+}
+.buttn{
+    background-color: #ffe824;
+    font-weight: 400;
+    font-family: var(--tit);
+    padding: 15px 14px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+}
+/* Css header starts */
+header{
+    background-color: #ecf6fe;
+    color: #0089ff;
+}
+header p{
+    font-weight: 300;
+    font-family: var(--tit);
+}
+header span{
+    font-weight: bolder;
+}
+/* Css section1 starts */
+#first{
+    position: relative;
+    background-color: #f5faff;
+}
+nav{
+    align-items: baseline;
+}
+#first li{
+    list-style-type: none;
+}
+#first a{
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 60px;
+}
+#first a:hover{
+    background-color: #0089ff;
+    color: #fff;
+    transition: 0.5s;
+}
+.nav{
+    z-index: 1;
+}
+#first div nav .image{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.clean{
+    padding-top: 200px;
+}
+#first h2{
+    color: #008aff;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+}
+#first h1{
+    font-weight: 700;
+    font-family: "Josefin Sans";
+    color: #13287e;
+}
+#first p{    
+    font: 300 20px var(--tit);
+    line-height: 35px;
+    color: #474747;
+    padding-bottom: 50px;
+}
+.clean .buttn{
+    font: 400 14px var(--tit);
+    color: #474747;
+    padding: 28px 52px;
+    margin-bottom: 220px;
+}
+/* CSS Section2 starts */
+#second h5{
+    padding-top: 50px;
+}
+.img1{
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+.img2{
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+#second button{
+    font: 400 14px var(--tit);
+    margin: auto;
+color: #474747;
+}
+.like{
+    border: #4d4444;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.like img{
+padding: 10px 5px;
+padding-left: 5px;
+}
+#second h4{
+    font: 400 33px var(--tit);
+color: #13287e;
+}
+.choose h6{
+    font: 400 20px var(--tit);
+color: #13287e;
+margin-top: 44px;
+text-align: center;
+}
+.choose hr{
+    width: 40%;
+    background-color: #ffed5f;  
+}
+.choose img{
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+.choose p{
+    font: 300 20px var(--tit);
+line-height: 33px;
+color: #474747;
+text-align: center;
+    padding-bottom: 218px;
+}
+/* Css section3 starst */
+#third{
+    background-image: url("img/Layer7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.custumers h5{
+    font: 400 33PX var(--tit);
+    padding-top: 84PX;
+    color: #13287e;
+    text-align: center;
+}
+.custumers p{
+    font: 300 20px var(--tit);
+line-height: 35px;
+color: #474747;
+text-align: center;
+width: 50%;
+margin: auto;
+}
+.custumers img{
+   text-align: center;
+}
+.custumers h6{
+    text-align: center;
+}
+#plan h4{
+    font: 400 33px var(--tit);
+    color: #13287e;
+    margin: auto;
+    text-align: center;
+    margin-top: 216px;
+}
+.planp{
+    font: 300 20px var(--tit);
+line-height: 35px;
+color: #474747;
+text-align: center;
+padding-top: 56px;
+padding-bottom: 68px;
+margin: auto;
+}
+.standart{
+    font: 400 26px var(--tit);
+    color: #474747;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+ .days{
+     margin-left: 35%;
+}
+.days h1{
+    font: 600 119px var(--tit);
+}
+.hour{
+    font: 300 16px var(--tit);
+    color: #474747;
+    text-align: center;   
+}
+#plaN{
+    background-color: #fdfdfd;
+}
+.experience{
+    font: 300 19px var(--tit);
+line-height: 35px;
+color: #474747;
+text-align: center;
+}
+#plan .buttn{
+    padding: 7% 10%;
+    margin: 5% 20%;
+}
+.dv{
+    border-radius: 8px;
+    box-shadow: 1px 10px 8px 10px #f5f5f5;
+}
+/* Css section client starts */
+#client{
+    background-image: url("img/22.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 220px;
+}
+.layer8 img{
+  text-align: center;
+}
+.layer8{
+    margin-left: 50%;
+    position: relative;
+}
+.layer8 h6{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -10%);
+    font: 600 44px var(--tit);
+    letter-spacing: 1px;
+    line-height: 38px;
+    text-align: center;
+    filter: drop-shadow(3.277px 2.294px 1px rgba(0,0,0,0.16));
+}
+.discount{
+    font: 600 57px var(--tit);
+color: #13287e;
+padding-top: 220px;
+text-align: center;
+}
+#client p{
+    font: 300 20px var(--tit);
+line-height: 35px;
+color: #474747;
+text-align: center;
+padding-top: 60px;
+padding-bottom: 66px;
+}
+#client .buttn{
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+/* CSS section lastestnews starts */
+#lastestnews h2{
+    font: 400 33px var(--tit);
+color: #13287e;
+text-align: center;
+padding-top: 220px;
+}
+#lastestnews p{
+    font: 300 20px var(--tit);
+line-height: 35px;
+color: #474747;
+text-align: center;
+}
+#lastestnews h5{
+    font: 300 26px var(--tit);
+color: #13287e;
+padding-top: 60px;
+padding-bottom: 30px;
+}
+#lastestnews ul{
+    text-align: center;
+}
+#lastestnews li{
+    list-style-type: none;
+    padding-top: 190px;
+}
+#lastestnews .nav a{
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 60px;
+}
+#lastestnews .nav a:hover{
+    background-color: #0089ff;
+    color: #fff;
+    transition: 0.5s;
+}
+#lastestnews .nav ul{
+    margin-left: 10px;
+    margin-bottom: 32px;
+}
+#contact input{
+    padding: 15px 0 15px 26px;
+    border: 1px solid #000;
+    width: 100%;
+}
+#contact form{
+    position: relative;
+}
+#contact form button{
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    right: 10%;
+    top: 28%;
+}
+#contact a{
+    color: #474747;
+}
+#contact i{
+    font-size: 30px;
+    padding: 21px 12px;
+}
